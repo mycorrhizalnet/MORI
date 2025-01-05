@@ -1,0 +1,22 @@
+node_modules
+out
+cache
+.env
+circuits/*
+!circuits/*.circom
+!circuits/*_final.ptau
+!circuits/*.sh
+
+
+# Powers of Tau intermediate files
+pot12_0000.ptau
+
+# Circuit-specific intermediate files
+*_0000.zkey
+
+# Witness files
+*.wtns
+.vscode
+
+# Precomputed sparse tree
+test/data/*.json
